@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>My to DO List</title>
+      <link rel="stylesheet" href="./talwind/main.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body style="background-image: url('./talwind/download\ \(4\).jpeg');" class=" md:h-screen  flex items-center justify-center bg-no-repeat bg-cover  ">
+     
+    
+
+
+      <div class="bg-white rounded-lg shadow-sm md:shadow-lg p-6 w-full max-w-[15rem] md:max-w-md">
+            <h2 class="text-2xl font-bold mb-4 text-gray-800 text-center"> My To-Do List</h2>
+            <div class="mb-4 input1">
+                <input type="text" id="new-task" class=" w-[50%] md:w-[80%] p-2 border-2 border-green-300 rounded-md" placeholder="Add a new task...">
+                <button id="add-task-btn" class=" bg-black hover:cursor-wait text-white font-bold py-2 px-4 rounded-md hover:bg-green-800 transition duration-500 opacity-100 mb-4 hover:font-serif">Add</button>
+            </div>
+
+            <ul id="task-list" class="  list-none gap-8 ">      
+            </ul>
+            <div class="footer ">
+                  <button class="border-2 bg-red-800 hover:cursor-pointer text-white font-bold py-2 px-4  rounded-md hover:bg-blue-600 transition duration-200 mb-4 opacity-100" >Clear All</button>
+            </div>
+        </div>
+
+<script src="./talwind/index.js"></script>
+</body>
+</html>
